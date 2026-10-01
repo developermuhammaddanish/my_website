@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+
+    <title>Student Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<link rel="stylesheet" href="style.css">
+
 <body>
-  <p>Welcome to my website!</p>  
-  <script src="script.js"></script>
+
+    <div class="container">
+
+        <h1>Student Task Manager</h1>
+
+        <div class="form">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter your task"
+            >
+
+            <button id="addBtn">Add Task</button>
+
+        </div>
+
+        <ul id="taskList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

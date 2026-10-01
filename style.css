@@ -1,7 +1,61 @@
-p{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
     text-align: center;
-    font-weight: bold;
-    font-size: x-large;
-    font-style: italic;
-    border: 1px dotted black;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+}
+
+#addBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#taskList {
+    padding: 0;
+}
+
+.task {
+    list-style: none;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #eeeeee;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
 }
