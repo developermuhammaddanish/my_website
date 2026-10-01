@@ -2,5 +2,6 @@ p{
     text-align: center;
     font-weight: bold;
     font-size: x-large;
+    font-style: italic;
     border: 1px dotted black;
 }
